@@ -1,0 +1,73 @@
+
+.logo{image-resolution: 200px;
+    width: 150px;
+    height: 150px;
+    filter: grayscale(100%);
+}
+.logo:hover{filter: grayscale(0%);
+            transition: all 1s;}
+
+.header{ display: flex;
+         justify-content: space-between;
+         padding: 0 25% 0 0;
+         align-items: flex-end ;
+         width: 100%;
+         height: 10rem;
+         background-color: black;
+         
+        }
+
+.menu ul{display: flex;
+         list-style: none;      
+}
+.menu ul li a{ margin-left: 50px;
+               font-size: 20px;
+               justify-content: center;
+               color: white;
+                padding: 0 20px 0 0;
+               text-decoration: none; 
+                    
+}
+
+.menu ul li a:hover{background-color: white;
+                    color:black;
+                    border-radius: 10%;
+                    padding: 0.5em  2em; 
+                    transition:  0.40s;
+}
+.nike{width: 100%;
+      height: 100%;
+      filter: grayscale(100%);
+}
+
+.nike:hover{filter: grayscale(0%);
+    transition: all 3s;
+}
+
+.portada{width: 100%;
+        height: 100%;
+        filter: grayscale(100%);
+}
+
+.portada:hover{filter: grayscale(0%);
+    transition: all 3s;
+}
+
+
+.fotoscaren3 img{width: 280px;
+    height: 400px;               
+}
+
+
+.fotoscaren3{ width: ;}
+
+
+.nombre{color: blanchedalmond;
+
+}
+
+.texto{margin-top: 10rem ;
+}
+body{ margin: 0;
+padding: 0;
+}
